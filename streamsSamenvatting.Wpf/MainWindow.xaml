@@ -1,0 +1,22 @@
+﻿<Window x:Name="winMain" x:Class="streamsSamenvatting.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:streamsSamenvatting.Wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Closing="Window_Closing" Loaded="winMain_Loaded">
+    <Grid>
+        <Button x:Name="btnGekendeMappen" Content="Gekende mappen" HorizontalAlignment="Left" Height="41" Margin="21,24,0,0" VerticalAlignment="Top" Width="160" Click="btnGekendeMappen_Click"/>
+        <ListBox x:Name="lstTest" HorizontalAlignment="Left" Height="211" Margin="21,177,0,0" VerticalAlignment="Top" Width="287"/>
+        <Button x:Name="btnSubmappenVanWindows" Content="Windows submappen" HorizontalAlignment="Left" Height="42" Margin="21,65,0,0" VerticalAlignment="Top" Width="160" Click="btnSubmappenVanWindows_Click"/>
+        <Button x:Name="btnBestandenVanWindows" Content="Windows bestanden" HorizontalAlignment="Left" Height="42" Margin="21,107,0,0" VerticalAlignment="Top" Width="160" Click="btnBestandenVanWindows_Click"/>
+        <Button x:Name="btnNieuweMap" Content="Nieuwe map" HorizontalAlignment="Left" Margin="181,65,0,0" VerticalAlignment="Top" Width="112" Height="42" Click="btnNieuweMap_Click"/>
+        <Button x:Name="btnNieuwBestand" Content="Nieuw bestand" HorizontalAlignment="Left" Margin="181,107,0,0" VerticalAlignment="Top" Width="112" Height="42" Click="btnNieuwBestand_Click"/>
+        <Button x:Name="btnOpenBestand" Content="Open bestand" HorizontalAlignment="Left" Height="41" Margin="351,10,0,0" VerticalAlignment="Top" Width="120" Click="btnOpenBestand_Click"/>
+        <TextBox x:Name="txtTest" HorizontalAlignment="Left" Height="257" Margin="351,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="410"/>
+        <Button x:Name="btnBewaarBestand" Content="Bewaar tekst" HorizontalAlignment="Left" Margin="615,10,0,0" VerticalAlignment="Top" Width="134" Height="41" Click="btnBewaarBestand_Click"/>
+        <Button x:Name="btnNaarFromPic" Content="Naar ander venster" HorizontalAlignment="Left" Margin="351,345,0,0" VerticalAlignment="Top" Width="138" Height="43" Click="btnNaarFromPic_Click"/>
+
+    </Grid>
+</Window>
