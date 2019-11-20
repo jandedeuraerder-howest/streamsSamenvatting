@@ -75,6 +75,7 @@ namespace streamsSamenvatting.Wpf
         private void btnNieuwBestand_Click(object sender, RoutedEventArgs e)
         {
             string map = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\nieuwemap";
+            //map = "c:\\windows\\system32\\drivers\\etc";
             if (!Directory.Exists(map))
                 Directory.CreateDirectory(map);
             if (!File.Exists(map + "\\test.txt"))
@@ -123,6 +124,12 @@ namespace streamsSamenvatting.Wpf
         private void btnNaarFromPic_Click(object sender, RoutedEventArgs e)
         {
             winPictures venster = new winPictures();
+            venster.ShowDialog();
+        }
+
+        private void btnJson_Click(object sender, RoutedEventArgs e)
+        {
+            winJson venster = new winJson();
             venster.ShowDialog();
         }
     }

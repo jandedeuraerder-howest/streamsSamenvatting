@@ -14,9 +14,10 @@
         <Button x:Name="btnNieuweMap" Content="Nieuwe map" HorizontalAlignment="Left" Margin="181,65,0,0" VerticalAlignment="Top" Width="112" Height="42" Click="btnNieuweMap_Click"/>
         <Button x:Name="btnNieuwBestand" Content="Nieuw bestand" HorizontalAlignment="Left" Margin="181,107,0,0" VerticalAlignment="Top" Width="112" Height="42" Click="btnNieuwBestand_Click"/>
         <Button x:Name="btnOpenBestand" Content="Open bestand" HorizontalAlignment="Left" Height="41" Margin="351,10,0,0" VerticalAlignment="Top" Width="120" Click="btnOpenBestand_Click"/>
-        <TextBox x:Name="txtTest" HorizontalAlignment="Left" Height="257" Margin="351,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="410"/>
+        <TextBox x:Name="txtTest" AcceptsReturn="True" HorizontalAlignment="Left" Height="257" Margin="351,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="410"/>
         <Button x:Name="btnBewaarBestand" Content="Bewaar tekst" HorizontalAlignment="Left" Margin="615,10,0,0" VerticalAlignment="Top" Width="134" Height="41" Click="btnBewaarBestand_Click"/>
         <Button x:Name="btnNaarFromPic" Content="Naar ander venster" HorizontalAlignment="Left" Margin="351,345,0,0" VerticalAlignment="Top" Width="138" Height="43" Click="btnNaarFromPic_Click"/>
+        <Button x:Name="btnJson" Content="JSON" HorizontalAlignment="Left" Margin="508,345,0,0" VerticalAlignment="Top" Width="125" Height="43" Click="btnJson_Click"/>
 
     </Grid>
 </Window>
